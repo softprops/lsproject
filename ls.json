@@ -4,4 +4,4 @@
   "resolvers":["http://nexus.scala-tools.org/content/repositories/releases/"],
   "scala-versions":["2.7.7","2.8.1"]
   "parent":"self"
-      }
+}

@@ -1,9 +1,7 @@
-
 {
   "id": ["com.example","Module B","1.0"],
   "description":"<fill>",
   "resolvers":["http://nexus.scala-tools.org/content/repositories/releases/"],
   "scala-versions":["2.7.7","2.8.1"]
-  "parent":"["com.example","lstest","1.0"]"
+  "parent":["com.example","lstest","1.0"]
 }
-      
