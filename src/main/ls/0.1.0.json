@@ -2,7 +2,7 @@
   "organization":"foo",
   "name": "bar",
   "version":"0.1.0",
-  "description":
+  "description": "test is just a test",
   "tags":[],
   "resolvers":[]
 }
