@@ -1,10 +1,10 @@
 
 {
  "organization":"me.lessis",
- "name":"root",
+ "name":"a",
  "version":"0.1.0",
- "description":"",
- "tags":[],
+ "description":"My way cool concurrency library",
+ "tags":["foo","bar"],
  "docs":"",
  "resolvers": [],
  "dependencies":{
