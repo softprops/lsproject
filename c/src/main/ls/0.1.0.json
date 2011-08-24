@@ -1,10 +1,9 @@
-
 {
  "organization":"me.lessis",
  "name":"c",
  "version":"0.1.0",
- "description":"",
- "tags":[],
+ "description":"some datastore client",
+ "tags":["nosql","tokyo cabinet"],
  "docs":"",
  "resolvers": [],
  "dependencies":{
