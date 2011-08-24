@@ -1,10 +1,9 @@
-
 {
  "organization":"me.lessis",
  "name":"b",
  "version":"0.1.0",
- "description":"",
- "tags":[],
+ "description":"my 4.0 web thing",
+ "tags":["scalable", "non-blocking"],
  "docs":"",
  "resolvers": [],
  "dependencies":{
