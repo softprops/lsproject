@@ -3,12 +3,12 @@
  "organization":"me.lessis",
  "name":"a",
  "version":"0.1.0",
- "description":"My way cool concurrency library",
+ "description":"My way cool futures library",
+ "site":""
  "tags":["foo","bar"],
  "docs":"",
- "resolvers": [],
+ "resolvers": [""],
  "dependencies":{
-   "projects": [],
    "libraries": []
  }
 }

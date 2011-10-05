@@ -1,1 +1,1 @@
-libraryDependencies <+= sbtVersion("me.lessis" %% "ls-sbt" % "0.1.0-%s-SNAPSHOT".format(_))
+addSbtPlugin("me.lessis" %% "ls-sbt" % "0.1.0-SNAPSHOT")

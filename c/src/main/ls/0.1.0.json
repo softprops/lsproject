@@ -1,13 +1,14 @@
+
 {
  "organization":"me.lessis",
  "name":"c",
  "version":"0.1.0",
- "description":"some datastore client",
- "tags":["nosql","tokyo cabinet"],
+ "description":"Like twitter but for lepidopterists",
+ "site":""
+ "tags":[],
  "docs":"",
- "resolvers": [],
+ "resolvers": ["less is: http://repo.lessis.me"],
  "dependencies":{
-   "projects": [],
    "libraries": []
  }
 }
