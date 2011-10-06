@@ -4,7 +4,7 @@
  "name":"a",
  "version":"0.1.0",
  "description":"My way cool futures library",
- "site":""
+ "site":"",
  "tags":["foo","bar"],
  "docs":"",
  "resolvers": [""],

@@ -4,7 +4,7 @@
  "name":"c",
  "version":"0.1.0",
  "description":"Like twitter but for lepidopterists",
- "site":""
+ "site":"",
  "tags":[],
  "docs":"",
  "resolvers": ["less is: http://repo.lessis.me"],

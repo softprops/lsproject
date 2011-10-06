@@ -4,7 +4,7 @@
  "name":"b",
  "version":"0.1.0",
  "description":"Web 4.0, possibly even 5",
- "site":""
+ "site":"",
  "tags":[],
  "docs":"",
  "resolvers": [""],
