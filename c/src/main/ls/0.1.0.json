@@ -10,5 +10,7 @@
  "resolvers": ["less is: http://repo.lessis.me"],
  "dependencies":{
    "libraries": []
- }
+ },
+ "scala-versions": ["2.9.1"],
+ "sbt": false
 }
