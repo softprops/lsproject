@@ -23,10 +23,13 @@ object Build extends sbt.Build {
 
   lazy val b = Project("b", file("b"),
                       settings = commonSettings ++ Seq(
-                        name := "b",
+                        name := "unfiltered-netty-server",
+                        (homepage in Ls) := Some(new java.net.URL(
+                          "http://unfiltered.databinder.net/Unfiltered.html")),
+                        (LsKeys.tags in Ls) := Seq("http"),
                         (description in Ls) :=
                           "Web 4.0, possibly even 5",
-                        libraryDependencies += "net.databinder" %% "unfiltered-netty" % "0.5.0"
+                        libraryDependencies += "net.databinder" %% "unfiltered-netty-server" % "0.5.0"
                       ))
 
   lazy val c = Project("c", file("c"),

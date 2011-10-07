@@ -8,9 +8,7 @@
  "tags":[],
  "docs":"",
  "resolvers": ["less is: http://repo.lessis.me"],
- "dependencies":{
-   "libraries": []
- },
+ "library_dependencies": [],
  "scala_versions": ["2.9.1"],
  "sbt": false
 }

@@ -7,10 +7,8 @@
  "site":"",
  "tags":["foo","bar"],
  "docs":"",
- "resolvers": [""],
- "dependencies":{
-   "libraries": []
- },
+ "resolvers": [],
+ "library_dependencies": [],
  "scala_versions": ["2.9.1"],
  "sbt": false
 }
