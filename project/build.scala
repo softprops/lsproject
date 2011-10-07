@@ -7,7 +7,7 @@ object Build extends sbt.Build {
   def commonSettings: Seq[Setting[_]] =
     Defaults.defaultSettings ++ Seq(
       organization := "me.lessis",
-      version := "0.1.0"
+      version := "0.1.1"
     ) ++ lsSettings
 
   lazy val root = Project("root", file("."),
@@ -15,10 +15,10 @@ object Build extends sbt.Build {
 
   lazy val a = Project("a", file("a"),
                        settings = commonSettings ++ Seq(
-                         name := "a",
-                         (LsKeys.tags in Ls) := Seq("foo", "bar"),
+                         name := "more-futurer",
+                         (LsKeys.tags in Ls) := Seq("foo", "bar", "async"),
                          (description in Ls) :=
-                           "My way cool futures library"
+                           "My super cool futures library"
                       ))
 
   lazy val b = Project("b", file("b"),
@@ -26,7 +26,7 @@ object Build extends sbt.Build {
                         name := "unfiltered-netty-server",
                         (homepage in Ls) := Some(new java.net.URL(
                           "http://unfiltered.databinder.net/Unfiltered.html")),
-                        (LsKeys.tags in Ls) := Seq("http"),
+                        (LsKeys.tags in Ls) := Seq("http", "web", "unfiltered"),
                         (description in Ls) :=
                           "Web 4.0, possibly even 5",
                         libraryDependencies += "net.databinder" %% "unfiltered-netty-server" % "0.5.0"
@@ -34,7 +34,7 @@ object Build extends sbt.Build {
 
   lazy val c = Project("c", file("c"),
                       settings = commonSettings ++ Seq(
-                        name := "c",
+                        name := "moth-talk",
                         (description in Ls) :=
                           "Like twitter but for lepidopterists",
                         resolvers += "less is" at "http://repo.lessis.me"
