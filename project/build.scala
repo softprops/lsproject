@@ -7,7 +7,7 @@ object Build extends sbt.Build {
   def commonSettings: Seq[Setting[_]] =
     Defaults.defaultSettings ++ Seq(
       organization := "me.lessis",
-      version := "0.1.2"
+      version := "0.1.3"
     ) ++ lsSettings ++ Seq(
       (LsKeys.lsHost in Ls) := "http://localhost:5000"
     )

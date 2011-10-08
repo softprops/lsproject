@@ -1,0 +1,14 @@
+
+{
+ "organization":"me.lessis",
+ "name":"moth-talk",
+ "version":"0.1.3",
+ "description":"Like twitter but for lepidopterists",
+ "site":"",
+ "tags":[],
+ "docs":"",
+ "resolvers": ["less is: http://repo.lessis.me"],
+ "library_dependencies": [],
+ "scala_versions": ["2.9.1"],
+ "sbt": false
+}

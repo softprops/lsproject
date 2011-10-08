@@ -1,0 +1,14 @@
+
+{
+ "organization":"me.lessis",
+ "name":"more-futurer",
+ "version":"0.1.3",
+ "description":"My super cool futures library",
+ "site":"",
+ "tags":["foo","bar","async"],
+ "docs":"",
+ "resolvers": [],
+ "library_dependencies": [],
+ "scala_versions": ["2.9.1"],
+ "sbt": false
+}
