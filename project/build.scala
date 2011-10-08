@@ -7,8 +7,10 @@ object Build extends sbt.Build {
   def commonSettings: Seq[Setting[_]] =
     Defaults.defaultSettings ++ Seq(
       organization := "me.lessis",
-      version := "0.1.1"
-    ) ++ lsSettings
+      version := "0.1.2"
+    ) ++ lsSettings ++ Seq(
+      (LsKeys.lsHost in Ls) := "http://localhost:5000"
+    )
 
   lazy val root = Project("root", file("."),
                            settings = commonSettings).aggregate(a, b, c)

@@ -1,0 +1,18 @@
+
+{
+ "organization":"me.lessis",
+ "name":"more-futurer",
+ "version":"0.1.2",
+ "description":"My super cool futures library",
+ "site":"",
+ "tags":["foo","bar","async"],
+ "docs":"",
+ "resolvers": [],
+ "library_dependencies": [{
+   "organization":"net.databinder",
+   "name": "unfiltered-netty-server",
+   "version": "0.5.0"
+  }],
+ "scala_versions": ["2.9.1"],
+ "sbt": false
+}

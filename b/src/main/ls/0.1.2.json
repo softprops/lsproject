@@ -1,0 +1,18 @@
+
+{
+ "organization":"me.lessis",
+ "name":"unfiltered-netty-server",
+ "version":"0.1.2",
+ "description":"Web 4.0, possibly even 5",
+ "site":"http://unfiltered.databinder.net/Unfiltered.html",
+ "tags":["http","web","unfiltered"],
+ "docs":"",
+ "resolvers": [],
+ "library_dependencies": [{
+   "organization":"net.databinder",
+   "name": "unfiltered-netty-server",
+   "version": "0.5.0"
+  }],
+ "scala_versions": ["2.9.1"],
+ "sbt": false
+}
