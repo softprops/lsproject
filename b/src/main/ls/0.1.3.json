@@ -7,7 +7,7 @@
  "site":"http://unfiltered.databinder.net/Unfiltered.html",
  "tags":["http","web","unfiltered"],
  "docs":"",
- "licences": [{
+ "licenses": [{
    "name": "MIT",
    "url": "https://github.com/unfiltered/unfiltered/blob/master/LICENSE"
   }],
