@@ -7,12 +7,9 @@
  "site":"",
  "tags":["foo","bar","async"],
  "docs":"",
- "resolvers": [],
- "library_dependencies": [{
-   "organization":"net.databinder",
-   "name": "unfiltered-netty-server",
-   "version": "0.5.0"
-  }],
- "scala_versions": ["2.9.1"],
+ "licenses": [],
+ "resolvers": ["http://scala-tools.org/repo-releases"],
+ "library_dependencies": [],
+ "scala_versions": ["2.8.0","2.8.1","2.8.2","2.9.0","2.9.0-1","2.9.1"],
  "sbt": false
 }

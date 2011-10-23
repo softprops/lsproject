@@ -1,17 +1,22 @@
+
 {
  "organization":"me.lessis",
  "name":"unfiltered-netty-server",
  "version":"0.1.0",
  "description":"Web 4.0, possibly even 5",
  "site":"http://unfiltered.databinder.net/Unfiltered.html",
- "tags":["http"],
+ "tags":["http","web","unfiltered"],
  "docs":"",
- "resolvers": [],
+ "licenses": [{
+   "name": "MIT",
+   "url": "https://github.com/unfiltered/unfiltered/blob/master/LICENSE"
+  }],
+ "resolvers": ["http://scala-tools.org/repo-releases"],
  "library_dependencies": [{
    "organization":"net.databinder",
-   "name": "unfiltered-netty",
+   "name": "unfiltered-netty-server",
    "version": "0.5.0"
   }],
- "scala_versions": ["2.9.1"],
+ "scala_versions": ["2.8.0","2.8.1","2.8.2","2.9.0","2.9.0-1","2.9.1"],
  "sbt": false
 }

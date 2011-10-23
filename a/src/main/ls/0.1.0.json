@@ -1,14 +1,15 @@
 
 {
  "organization":"me.lessis",
- "name":"a",
+ "name":"more-futurer",
  "version":"0.1.0",
- "description":"My way cool futures library",
+ "description":"My super cool futures library",
  "site":"",
- "tags":["foo","bar"],
+ "tags":["foo","bar","async"],
  "docs":"",
- "resolvers": [],
+ "licenses": [],
+ "resolvers": ["http://scala-tools.org/repo-releases"],
  "library_dependencies": [],
- "scala_versions": ["2.9.1"],
+ "scala_versions": ["2.8.0","2.8.1","2.8.2","2.9.0","2.9.0-1","2.9.1"],
  "sbt": false
 }
