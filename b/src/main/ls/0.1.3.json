@@ -11,7 +11,7 @@
    "name": "MIT",
    "url": "https://github.com/unfiltered/unfiltered/blob/master/LICENSE"
   }],
- "resolvers": ["public: http://repo1.maven.org/maven2/","Scala-Tools Maven2 Repository: http://scala-tools.org/repo-releases"],
+ "resolvers": ["http://scala-tools.org/repo-releases"],
  "library_dependencies": [{
    "organization":"net.databinder",
    "name": "unfiltered-netty-server",
