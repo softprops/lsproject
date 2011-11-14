@@ -13,7 +13,7 @@ object Build extends sbt.Build {
       crossScalaVersions := Seq("2.8.0", "2.8.1", "2.8.2",
                               "2.9.0", "2.9.0-1", "2.9.1")
     ) ++ lsBuildSettings ++ Seq(
-      //(LsKeys.host in LsKeys.lsync) := "http://localhost:5000"
+      (LsKeys.host in LsKeys.lsync) := "http://localhost:5000"
     )
 
   lazy val root = Project("root", file("."),
@@ -27,7 +27,7 @@ object Build extends sbt.Build {
       name := "more-futurer",
       (LsKeys.tags in LsKeys.lsync) := Seq("foo", "bar", "async"),
       (description in LsKeys.lsync) :=
-        "My super cool futures library (did update)"
+        "My super cool futures library"
     )
   )
 
@@ -38,7 +38,7 @@ object Build extends sbt.Build {
         new java.net.URL("http://somesite.com/ba-ba-boom")),
       (LsKeys.tags in LsKeys.lsync) := Seq("explosive"),
       (description in LsKeys.lsync) :=
-        "This library is not allowed to enter traffic tunnels (did update)",
+        "This library is not allowed to enter traffic tunnels",
       (homepage in LsKeys.lsync) := Some(url("http://somesite.com")),
       (licenses in LsKeys.lsync) := Seq(
         ("MIT", url("https://somesite.com/LICENSE"))
@@ -54,7 +54,7 @@ object Build extends sbt.Build {
     settings = commonSettings ++ Seq(
       name := "moth-talk",
       (description in LsKeys.lsync) :=
-      "Like twitter but for lepidopterists (did update)",
+      "Like twitter but for lepidopterists",
       resolvers += "less is" at "http://repo.lessis.me"
     )
   )
