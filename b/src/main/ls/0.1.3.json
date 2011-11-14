@@ -3,9 +3,9 @@
  "organization":"me.lessis",
  "name":"ba-ba-boom",
  "version":"0.1.3",
- "description":"This library is not allowed to enter traffic tunnels",
+ "description":"This library is not allowed to enter traffic tunnels (did update)",
  "site":"http://somesite.com",
- "tags":["explosive"],
+ "tags":[],
  "docs":"",
  "licenses": [{
    "name": "MIT",
