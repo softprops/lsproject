@@ -1,15 +1,14 @@
-
 {
- "organization":"me.lessis",
- "name":"moth-talk",
- "version":"0.1.3",
- "description":"Like twitter but for lepidopterists",
- "site":"",
- "tags":[],
- "docs":"",
- "licenses": [],
- "resolvers": ["http://scala-tools.org/repo-releases"],
- "dependencies": [],
- "scalas": ["2.8.0","2.8.1","2.8.2","2.9.0","2.9.0-1","2.9.1"],
- "sbt": false
+  "organization" : "me.lessis",
+  "name" : "moth-talk",
+  "version" : "0.1.3",
+  "description" : "Like twitter but for lepidopterists",
+  "site" : "",
+  "tags" : [ ],
+  "docs" : "",
+  "resolvers" : [ "http://scala-tools.org/repo-releases" ],
+  "dependencies" : [ ],
+  "scalas" : [ "2.8.0", "2.8.1", "2.8.2", "2.9.0", "2.9.0-1", "2.9.1" ],
+  "licenses" : [ ],
+  "sbt" : false
 }

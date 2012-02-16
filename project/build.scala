@@ -8,8 +8,8 @@ object Build extends sbt.Build {
 
   def commonSettings: Seq[Setting[_]] =
     Defaults.defaultSettings ++ Seq(
-      organization := "me.lessis",
-      version := "0.1.3",
+      organization := "com.lessis",
+      version := "0.1.4",
       crossScalaVersions := Seq("2.8.0", "2.8.1", "2.8.2",
                               "2.9.0", "2.9.0-1", "2.9.1")
     ) ++ lsBuildSettings ++ Seq(
@@ -18,7 +18,7 @@ object Build extends sbt.Build {
 
   lazy val root = Project("root", file("."),
     settings = commonSettings ++ Seq(
-      (LsKeys.writeVersion in LsKeys.lsync) := { }
+      LsKeys.skipWrite := true
     )
   ).aggregate(a, b, c)
 
